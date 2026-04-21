@@ -27,17 +27,25 @@ export function MobileMenu() {
           <SheetTitle>Меню навигации</SheetTitle>
           <SheetDescription>Переход к разделам сайта</SheetDescription>
         </SheetHeader>
-        <nav className="flex flex-col gap-1 mt-8">
-          {menuItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              onClick={() => setOpen(false)}
-              className="text-base font-medium hover:text-primary hover:bg-primary/5 transition-all py-3 px-4 rounded-lg border-b border-border/50 last:border-b-0"
-            >
-              {item.label}
-            </a>
-          ))}
+        <nav className="flex flex-col gap-3 mt-8">
+          <a
+            href="https://arizonarpcopy.sampproject.ru/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+            className="text-base font-medium hover:text-primary hover:bg-primary/5 transition-all py-3 px-4 rounded-lg border-b border-border/50"
+          >
+            Форум
+          </a>
+          <a
+            href="https://drive.usercontent.google.com/download?id=1gbC0eF-MCSUE7m0ZovNvXirny9X-qJC5&export=download&authuser=0&confirm=t&uuid=54ab7dc6-b904-44d2-80a7-0ac7926eab8d&at=ALBwUgnSPo_75uImxR4Mqh5KgdLj%3A1776062362514"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+            className="text-base font-medium hover:text-primary hover:bg-primary/5 transition-all py-3 px-4 rounded-lg"
+          >
+            Начать играть
+          </a>
         </nav>
       </SheetContent>
     </Sheet>
