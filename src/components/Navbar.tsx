@@ -28,12 +28,6 @@ export function Navbar() {
           </a>
 
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
-              О нас
-            </a>
-            <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
-              Контакты
-            </a>
           </div>
 
           <div className="flex items-center gap-2">
