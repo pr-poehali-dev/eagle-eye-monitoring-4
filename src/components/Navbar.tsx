@@ -31,15 +31,6 @@ export function Navbar() {
             <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
               О нас
             </a>
-            <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
-              Услуги
-            </a>
-            <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors">
-              Портфолио
-            </a>
-            <a href="#pricing" className="text-sm font-medium hover:text-primary transition-colors">
-              Тарифы
-            </a>
             <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
               Контакты
             </a>
