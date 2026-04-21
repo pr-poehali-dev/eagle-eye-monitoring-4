@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Sparkles, Code2, Palette } from "lucide-react"
+import { ArrowRight, Sparkles, Code2, Palette, MessageSquare, Play } from "lucide-react"
 import { useEffect, useState } from "react"
 
 export function HeroSection() {
@@ -111,9 +111,9 @@ export function HeroSection() {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg group shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all"
             asChild
           >
-            <a href="#contact">
-              Начать проект
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            <a href="https://drive.usercontent.google.com/download?id=1gbC0eF-MCSUE7m0ZovNvXirny9X-qJC5&export=download&authuser=0&confirm=t&uuid=54ab7dc6-b904-44d2-80a7-0ac7926eab8d&at=ALBwUgnSPo_75uImxR4Mqh5KgdLj%3A1776062362514" target="_blank" rel="noopener noreferrer">
+              <Play className="mr-2 h-5 w-5" />
+              Начать играть
             </a>
           </Button>
           <Button
@@ -122,7 +122,10 @@ export function HeroSection() {
             className="border-2 border-primary/20 text-foreground hover:bg-primary/5 hover:border-primary font-semibold px-8 py-6 text-lg backdrop-blur-sm bg-transparent"
             asChild
           >
-            <a href="#portfolio">Наши работы</a>
+            <a href="https://arizonarpcopy.sampproject.ru/" target="_blank" rel="noopener noreferrer">
+              <MessageSquare className="mr-2 h-5 w-5" />
+              Наш форум
+            </a>
           </Button>
         </div>
 
