@@ -127,6 +127,17 @@ export function HeroSection() {
               Наш форум
             </a>
           </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            className="border-2 border-primary/20 text-foreground hover:bg-primary/5 hover:border-primary font-semibold px-8 py-6 text-lg backdrop-blur-sm bg-transparent"
+            asChild
+          >
+            <a href="https://vk.ru/club237955389" target="_blank" rel="noopener noreferrer">
+              <ArrowRight className="mr-2 h-5 w-5" />
+              Наше сообщество
+            </a>
+          </Button>
         </div>
 
 
