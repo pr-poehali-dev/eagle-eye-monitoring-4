@@ -1,21 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Download } from "lucide-react"
 
-const screenshots = [
-  {
-    url: "https://cdn.poehali.dev/projects/2a9df3da-3722-4390-851e-521260d99775/files/2c2d416e-a868-4569-b7e8-94b51f0c7a88.jpg",
-    alt: "Скриншот игры 1",
-  },
-  {
-    url: "https://cdn.poehali.dev/projects/2a9df3da-3722-4390-851e-521260d99775/files/ab49a4fa-8a0a-488b-8e5d-69827f7201df.jpg",
-    alt: "Скриншот игры 2",
-  },
-  {
-    url: "https://cdn.poehali.dev/projects/2a9df3da-3722-4390-851e-521260d99775/files/eb848be3-cec4-4b70-9230-2cd09122362d.jpg",
-    alt: "Скриншот игры 3",
-  },
-]
-
 export function PlaySection() {
   return (
     <section className="relative bg-[#0d0d0d] overflow-hidden py-16">
@@ -46,7 +31,7 @@ export function PlaySection() {
 
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase px-12 py-6 text-lg shadow-lg shadow-primary/40 tracking-widest mb-10"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase px-12 py-6 text-lg shadow-lg shadow-primary/40 tracking-widest"
               asChild
             >
               <a
@@ -58,15 +43,6 @@ export function PlaySection() {
                 Скачать с сайта
               </a>
             </Button>
-
-            {/* Screenshots */}
-            <div className="grid grid-cols-3 gap-3">
-              {screenshots.map((s, i) => (
-                <div key={i} className="rounded-lg overflow-hidden border border-white/10 shadow-lg">
-                  <img src={s.url} alt={s.alt} className="w-full h-32 sm:h-40 object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
-              ))}
-            </div>
           </div>
         </div>
 
