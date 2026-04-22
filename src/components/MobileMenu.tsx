@@ -29,7 +29,7 @@ export function MobileMenu() {
         </SheetHeader>
         <nav className="flex flex-col gap-3 mt-8">
           <a
-            href="https://arizonarpcopy.sampproject.ru/"
+            href="https://arizonarpcopy.sampproject.ru/index.php"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}

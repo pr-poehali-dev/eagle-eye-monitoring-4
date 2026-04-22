@@ -32,7 +32,7 @@ export function Navbar() {
 
           <div className="flex items-center gap-2">
             <Button variant="outline" size="sm" className="hidden md:inline-flex border-primary/20 hover:border-primary hover:bg-primary/5" asChild>
-              <a href="https://arizonarpcopy.sampproject.ru/" target="_blank" rel="noopener noreferrer">Форум</a>
+              <a href="https://arizonarpcopy.sampproject.ru/index.php" target="_blank" rel="noopener noreferrer">Форум</a>
             </Button>
             <Button variant="outline" size="sm" className="hidden md:inline-flex border-primary/20 hover:border-primary hover:bg-primary/5" asChild>
               <a href="https://vk.ru/club237955389" target="_blank" rel="noopener noreferrer">

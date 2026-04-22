@@ -46,7 +46,7 @@ export function HeroSection() {
             className="border-2 border-white/30 text-white hover:bg-white/10 hover:border-white font-semibold uppercase px-8 py-6 text-lg backdrop-blur-sm bg-transparent tracking-wider"
             asChild
           >
-            <a href="https://edgarrussiarp.sampproject.ru/index.php" target="_blank" rel="noopener noreferrer">
+            <a href="https://arizonarpcopy.sampproject.ru/index.php" target="_blank" rel="noopener noreferrer">
               <MessageSquare className="mr-2 h-5 w-5" />
               Наш форум
             </a>
