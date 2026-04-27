@@ -43,7 +43,7 @@ export function Navbar() {
               </a>
             </Button>
             <Button size="sm" className="hidden md:inline-flex bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/25" asChild>
-              <a href="https://drive.usercontent.google.com/download?id=1gbC0eF-MCSUE7m0ZovNvXirny9X-qJC5&export=download&authuser=0&confirm=t&uuid=54ab7dc6-b904-44d2-80a7-0ac7926eab8d&at=ALBwUgnSPo_75uImxR4Mqh5KgdLj%3A1776062362514" target="_blank" rel="noopener noreferrer">Начать играть</a>
+              <a href="https://drive.usercontent.google.com/download?id=1OH9t0Su_FqkGZzGWpurL7tceyh4G7XP_&export=download&authuser=0&confirm=t&uuid=bbb3f972-6cff-4062-b013-6be7082a07c0&at=ALBwUgnBYHx-YM94J2J0ppIg5LVL%3A1777309608470" target="_blank" rel="noopener noreferrer">Начать играть</a>
             </Button>
             <ThemeToggle />
             <MobileMenu />
